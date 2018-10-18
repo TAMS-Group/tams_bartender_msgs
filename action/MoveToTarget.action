@@ -1,0 +1,12 @@
+# name of the target in the planning scene
+string target
+# alternativley give pose directly. Only used if target is empty.
+geometry_msgs/PoseStamped target_pose
+# should the robot look at the target while driving to it?
+bool look_at_target
+---
+# the pose the robot moved to
+geometry_msgs/PoseStamped pose_result
+# the pose of the target object in the planning scene
+geometry_msgs/PoseStamped target_pose_result
+---
