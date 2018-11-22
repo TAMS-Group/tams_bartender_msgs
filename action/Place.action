@@ -1,8 +1,12 @@
 # Task solution to execute
-string surface_goal
+string surface
 ---
 
-# result of execution
+# Result of execution
+ManipulationResult result
+
+---
+# Error result
 moveit_msgs/MoveItErrorCodes error_code
 
 ---

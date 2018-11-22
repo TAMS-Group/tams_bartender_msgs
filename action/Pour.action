@@ -1,9 +1,14 @@
 # Task solution to execute
-string glass_goal
+string container
 float32 pouring_time
 ---
 
-# result of execution
+# Result of execution
+ManipulationResult result
+
+---
+
+# Error result
 moveit_msgs/MoveItErrorCodes error_code
 
 ---

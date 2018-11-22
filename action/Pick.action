@@ -1,11 +1,16 @@
 # Task solution to execute
-string bottle_goal
+string object_id
 ---
 
-# result of execution
+# Result of execution
+ManipulationResult result
+
+---
+
+# Error result
 moveit_msgs/MoveItErrorCodes error_code
 
 ---
 
-# current stage/subtrajectory during execution
+# Current stage/subtrajectory during execution
 string state
