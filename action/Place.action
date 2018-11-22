@@ -1,5 +1,11 @@
-geometry_msgs/PoseStamped place_pose
+# Task solution to execute
+string surface_goal
 ---
-ManipulationResult result
+
+# result of execution
+moveit_msgs/MoveItErrorCodes error_code
+
 ---
-string status
+
+# current stage/subtrajectory during execution
+string state
