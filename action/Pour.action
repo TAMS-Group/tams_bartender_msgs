@@ -6,9 +6,6 @@ float32 pouring_time
 # Result of execution
 ManipulationResult result
 
-# Error result
-moveit_msgs/MoveItErrorCodes error_code
-
 ---
 
 # current stage/subtrajectory during execution
