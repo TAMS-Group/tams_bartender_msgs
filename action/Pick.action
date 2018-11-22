@@ -1,5 +1,14 @@
+# Object to pick
 string object_id
 ---
+
+# Result of execution
 ManipulationResult result
+
+# Error result
+moveit_msgs/MoveItErrorCodes error_code
+
 ---
-string status
+
+# Current stage/subtrajectory during execution
+string state

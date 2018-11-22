@@ -1,5 +1,14 @@
-geometry_msgs/PoseStamped place_pose
+# Surface to place object
+string surface
 ---
+
+# Result of execution
 ManipulationResult result
+
+# Error result
+moveit_msgs/MoveItErrorCodes error_code
+
 ---
-string status
+
+# current stage/subtrajectory during execution
+string state
