@@ -1,5 +1,7 @@
 # Surface to place object
 string surface
+
+geometry_msgs/PoseStamped place_pose
 ---
 
 # Result of execution
