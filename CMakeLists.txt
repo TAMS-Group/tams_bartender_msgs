@@ -30,6 +30,7 @@ add_action_files(FILES
 	BartenderSpeech.action
 	DetectBottles.action
 	DetectGlass.action
+	GrowTall.action
 )
 
 add_service_files(FILES
